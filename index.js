@@ -73,3 +73,5 @@ app.post("/add", (req, res) => {
     res.status(400).send({ status: "Request was bad" });
   }
 });
+
+app.listen(5000, () => console.log("it works"));
